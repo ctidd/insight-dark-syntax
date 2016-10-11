@@ -1,0 +1,12 @@
+{
+  "name": "insight-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A dark and readable syntax theme.",
+  "repository": "https://github.com/ctidd/insight-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
