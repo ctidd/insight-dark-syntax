@@ -1,0 +1,51 @@
+atom-panel[class] {
+    background: transparent;
+}
+
+:host, atom-text-editor {
+    color: @syntax-text-color;
+    background-color: @syntax-background-color;
+
+    .wrap-guide {
+        background-color: @syntax-wrap-guide-color;
+    }
+
+    .indent-guide {
+        color: @syntax-indent-guide-color;
+    }
+
+    .invisible-character {
+        color: @syntax-invisible-character-color;
+    }
+
+    .gutter {
+        color: @syntax-gutter-text-color;
+        background-color: @syntax-gutter-background-color;
+    }
+
+    .gutter .line-number.cursor-line {
+        color: @syntax-gutter-text-color-selected;
+        background-color: @syntax-gutter-background-color-selected;
+    }
+
+    .gutter .line-number.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+    }
+
+    .invisible {
+        color: @syntax-text-color;
+    }
+
+    .cursor {
+        color: @syntax-cursor-color;
+    }
+
+    .selection .region {
+        background-color: @syntax-selection-color;
+    }
+}
+
+.bracket-matcher .region {
+    background: @syntax-selection-color;
+    border-bottom: none;
+}
