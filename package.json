@@ -1,7 +1,7 @@
 {
   "name": "insight-dark-syntax",
   "theme": "syntax",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": false,
   "description": "A dark and readable syntax theme.",
   "repository": "https://github.com/ctidd/insight-dark-syntax",
