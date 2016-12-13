@@ -1,5 +1,5 @@
-# Insight Dark Syntax Theme
+# Insight Dark Syntax
 
-A dark and readable syntax theme, Insight Dark Syntax is for developers who prefer meaningful syntax highlighting meant to improve readability. Clearly, it's not yet there.
+Insight Dark Syntax aims to provide readable syntax highlighting.
 
-This theme is intended for use with One Dark UI. At this stage, the theme is primarily targeting JavaScript and CSS.
+Insight Dark Syntax is the default theme used to demonstrate [Atom Themerator](https://atom-themerator.ctidd.com/).

@@ -1,29 +1,32 @@
-@import "colors";
+/**************************************
+** EXPOSED THEME VARIABLES
+** THIS FILE MUST REMAIN EXACTLY HERE
+***************************************/
 
-// General colors
-@syntax-text-color: @COLOR_FOREGROUND;
-@syntax-cursor-color: @COLOR_FOREGROUND;
-@syntax-selection-color: @COLOR_BACKGROUND_ALT;
-@syntax-selection-flash-color: @COLOR_FOREGROUND;
-@syntax-background-color: @COLOR_BACKGROUND;
+/* General colors */
+@syntax-text-color: #fff;
+@syntax-cursor-color: #fff;
+@syntax-selection-color: rgba(255, 255, 255, .2);
+@syntax-selection-flash-color: rgba(255, 255, 255, .2);
+@syntax-background-color: #1a2326;
 
-// Guide colors
-@syntax-wrap-guide-color: @COLOR_INVISIBLE;
-@syntax-indent-guide-color: @COLOR_INVISIBLE;
-@syntax-invisible-character-color: @COLOR_INVISIBLE;
+/* Guide colors */
+@syntax-wrap-guide-color: rgba(255, 255, 255, .2);
+@syntax-indent-guide-color: rgba(255, 255, 255, .2);
+@syntax-invisible-character-color: rgba(255, 255, 255, .2);
 
-// For find and replace markers
-@syntax-result-marker-color: @COLOR_MUTED;
-@syntax-result-marker-color-selected: @COLOR_FOREGROUND;
+/* For find and replace markers */
+@syntax-result-marker-color: rgba(255, 255, 255, .2);
+@syntax-result-marker-color-selected: rgba(255, 255, 255, .2);
 
-// Gutter colors
-@syntax-gutter-text-color: @COLOR_FOREGROUND_ALT;
-@syntax-gutter-text-color-selected: @COLOR_FOREGROUND_ALT;
-@syntax-gutter-background-color: @COLOR_BACKGROUND;
-@syntax-gutter-background-color-selected: @COLOR_BACKGROUND_ALT;
+/* Gutter colors */
+@syntax-gutter-text-color: #fff;
+@syntax-gutter-text-color-selected: #fff;
+@syntax-gutter-background-color: #1a2326;
+@syntax-gutter-background-color-selected: rgba(255, 255, 255, .2);
 
-// For git diff info. i.e. in the gutter
-@syntax-color-added: @GREEN;
-@syntax-color-modified: @BLUE;
-@syntax-color-renamed: @BLUE;
-@syntax-color-removed: @RED;
+/* For git diff info. i.e. in the gutter */
+@syntax-color-added: #02ce91;
+@syntax-color-modified: #02ce91;
+@syntax-color-renamed: #02ce91;
+@syntax-color-removed: #ce023f;
